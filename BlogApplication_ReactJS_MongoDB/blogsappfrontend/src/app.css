@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+
+#tableOfBlog{
+    border: 2px solid black;
+}
+#tableOfBlog tr td{
+    background-color:burlywood;
+    padding: 15px;
+    border: 1px solid black;
+}

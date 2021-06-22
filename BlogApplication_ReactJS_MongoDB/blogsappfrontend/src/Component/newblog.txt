@@ -1,0 +1,20 @@
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom';
+
+export default class newblog extends Component {
+    render() {
+        return (
+            <div>
+                <form action="">
+                    <label htmlFor="">Blog Name : </label>
+                    <input type="text" /><br/><br/>
+                    <label htmlFor="">Content : </label><br/>
+                    <textarea name="blog_content" id="blog_content" cols="30" rows="10"></textarea><br/>
+                    <button gtype="submit">Submit</button>
+
+                    
+                </form>
+            </div>
+        )
+    }
+}
